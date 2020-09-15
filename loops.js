@@ -18,6 +18,8 @@ function whileLoop(number) {
   return "done"
 }
 
-function doWhileLoop(integer) {
-  
+function doWhileLoop(integer){
+  do{
+    console.log("I run once regardless.")
+  } while (incrementVariable() <= integer)
 }
